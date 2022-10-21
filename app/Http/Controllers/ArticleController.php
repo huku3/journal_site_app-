@@ -12,7 +12,7 @@ class ArticleController extends Controller
     {
         // モデル名::テーブル全件取得
         $articles = Article::all();
-        // memosティレクトリーの中のindexページを指定し、memosの連想配列を代入
+        // articlesティレクトリーの中のindexページを指定し、articlesの連想配列を代入
         return view('articles.index', ['articles' => $articles]);
     }
 

@@ -9,10 +9,13 @@
 <body>
 <a href="/articles">戻る</a>
     <h1>{{ $article->title }}</h1>
-  　 <p>{!! nl2br(e($article->body)) !!}</p>
-  
-  
-  <button onclick="location.href='/articles/'">一覧へ戻る</button>
-   </form>
+    <p>{!! nl2br(e($article->body)) !!}</p>
+
+
+    <button onclick="location.href='/articles/'">一覧へ戻る</button>
+    </form>
 </body>
 </html>
+
+
+
